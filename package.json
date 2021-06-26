@@ -1,0 +1,62 @@
+{
+  "name": "protoreaction",
+  "version": "1.0.0",
+  "description": "A workspaces-based project framework for building apps using Preact and React from a single source",
+  "author": {
+    "name": "Antonio Malcolm",
+    "email": "antonio@antoniomalcolm.com",
+    "url": "https://antoniomalcolm.com"
+  },
+  "homepage": "https://github.com/antonio-malcolm/protoreaction",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonio-malcolm/protoreaction.git"
+  },
+  "engines-comments": {
+    "node": "using nvm to install and manage node versions (most recent stable) (https://github.com/nvm-sh/nvm): $ nvm  install --lts",
+    "npm": "using nvm to install and manage npm versions (most recent stable) (https://github.com/nvm-sh/nvm): $ nvm install-latest-npm"
+  },
+  "engines": {
+    "node": "^14.17.1",
+    "npm": "^6.14.13",
+    "pnpm": "^6.9.1"
+  },
+  "dependencies-comments": {
+    "colors": "library for CLI output text color and style formatting",
+    "minimist": "library to support parsing of CLI-style args in NodeJS javascript modules"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "minimist": "^1.2.5"
+  },
+  "main": "app.js",
+  "bin": {
+    "protoreaction": "app.js"
+  },
+  "scripts-comments": {
+    "list:tasks": "Lists tasks available"
+  },
+  "scripts": {
+    "clean": "node task/runTask.js clean --CLEAN_SCOPE=all",
+    "clean:all": "node task/runTask.js clean --CLEAN_SCOPE=all",
+    "clean:build": "node task/runTask.js clean --CLEAN_SCOPE=build",
+    "clean:dependencies": "node task/runTask.js clean --CLEAN_SCOPE=dependencies",
+    "clean:dependency-locks": "node task/runTask.js clean --CLEAN_SCOPE=dependency-locks",
+    "clean:draft": "node task/runTask.js clean --CLEAN_SCOPE=draft",
+    "create": "node task/runTask.js create",
+    "list:tasks": "node task/runTask.js list"
+  },
+  "keywords": [
+    "babel",
+    "immer",
+    "immerable-record",
+    "preact",
+    "protoreaction",
+    "react",
+    "redux",
+    "redux-saga",
+    "sass",
+    "webpack"
+  ]
+}
