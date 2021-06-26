@@ -1,6 +1,6 @@
 {
   "name": "protoreaction",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A workspaces-based project framework for building apps using Preact and React from a single source",
   "author": {
     "name": "Antonio Malcolm",
