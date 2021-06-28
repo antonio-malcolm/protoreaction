@@ -30,7 +30,7 @@ __Projects generated are built, tested, and run, using simple scripts.__
 ## Contents
 [About](#about)  
 [Quickstart](#quickstart)  
-[Beyond Quickstart](#beyond-quickstart) 
+[Beyond Quickstart](#beyond-quickstart)  
 [Project Structure](#project-structure)  
 [Author And License Info](#author-and-license-info)  
 [Support This Project](#support-this-project)
@@ -278,10 +278,10 @@ Test output (genrated after running tests):
 `test/output/`
 
 ## Author And License Info
-interReaction is authored by, and copyright 2021 to present, Antonio Malcolm.  
+protoReaction is authored by, and copyright 2021 to present, Antonio Malcolm.  
 All rights reserved.
 
-interReaction (A.K.A., "interReaction", "InterReaction", "interpreaction", "interPreaction", or "InterPreaction")
+protoReaction (A.K.A., "ProtoReaction" or "protoreaction")
  is licensed under the BSD 3-Clause license,
  and is subject to the terms of the BSD 3-Clause license,
  found in the LICENSE file, in the root directory of this project.
@@ -294,5 +294,5 @@ This software is built with the greatest care and attention to detail, and thoro
 Any support is greatly appreciated!
 
 [!["Donate: Buy Me A Coffee"](https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-a1644c?style=for-the-badge&logo=buymeacoffee)](https://buymeacoffee.com/antoniomalcolm)
- [!["Donate: LiberaPay"](https://img.shields.io/badge/Donate-LiberaPay-f6c915?style=for-the-badge&logo=liberapay)](https://www.buymeacoffee.com/antoniomalcolm)
+ [!["Donate: LiberaPay"](https://img.shields.io/badge/Donate-LiberaPay-f6c915?style=for-the-badge&logo=liberapay)](https://liberapay.com/antonio-malcolm)
  [!["Donate: PayPal"](https://img.shields.io/badge/Donate-PayPal-0070ba?style=for-the-badge&logo=paypal)](https://paypal.me/antoniomalcolm)
